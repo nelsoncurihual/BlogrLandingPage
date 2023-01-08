@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #fafafa;
+}
+
+$font-family-sans-serif: 'Overpass', sans-serif;
+
+// font-family: 'Ubuntu', sans-serif;
+
+$primary: #ff585f;
+$secondary: #153651;
+// $success: #49556B;
+// $dark: #18202D;
+
+// $container-max-widths: (
+//     sm: 540px,
+//     md: 720px,
+//     lg: 960.0px,
+//     xl: 960.01px,
+//     xxl: 960.02px,
+// );
+
+
+$navbar-light-color: white;
+$navbar-light-toggler-border-color: tranparent;
+
+$input-btn-padding-y: .7rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

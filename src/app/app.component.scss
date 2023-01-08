@@ -1,0 +1,20 @@
+.altura{
+    height: 60vh;
+}
+
+.container-fluid.altura{
+    background-image: url('../assets/bg-pattern-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-y: 31%;
+    background-position-x: 35%;
+    border-radius: 0px 0px 0px 12vmax;
+    background-size: 335%;
+}
+
+.fuenteUbuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.espaciadoSuperior{
+    margin-top: 8vmax;
+}
