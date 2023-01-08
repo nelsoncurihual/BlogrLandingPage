@@ -1,8 +1,5 @@
-.altura{
+.container-fluid.bg-primary {
     height: 60vh;
-}
-
-.container-fluid.altura{
     background-image: url('../assets/bg-pattern-intro-mobile.svg');
     background-repeat: no-repeat;
     background-position-y: 31%;
@@ -11,10 +8,32 @@
     background-size: 335%;
 }
 
-.fuenteUbuntu{
+.fuenteUbuntu {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.espaciadoSuperior{
+.marginTop {
     margin-top: 8vmax;
+}
+
+.second-container.bg-info {
+    height: 75vh;
+    background-image: url('../assets/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 850%;
+    background-size: 161%;    
+}
+
+.sectionPhones .first-container{
+    height: 24vh;
+}
+
+.second-container h1{
+    padding-top: 30vh;
+    font-size: 2.2rem;
+}
+
+.second-container{
+    border-radius: 0px 12vmax 0px 12vmax;
 }
