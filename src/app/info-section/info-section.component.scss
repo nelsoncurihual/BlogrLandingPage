@@ -1,0 +1,35 @@
+@media (min-width: 576px) {
+    .bodySection {
+        display: flex;
+        padding-bottom: 8vw;
+        align-items: flex-start;
+    }
+
+    .bodyContainer {
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+    }
+
+    .infoSection {
+        position: relative;
+
+        img {
+            position: absolute;
+            margin: auto;
+            width: 50%;
+            top: 0;
+            bottom: 0;
+        }
+    }
+}
+
+.titleSection {
+    padding-top: 8vw;
+}
+
+.bodySection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
